@@ -1,0 +1,22 @@
+.o_button_container {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.o_button {
+  text-align: left;
+  background: #eeeeee;
+  outline: none;
+  border: 1px solid #212121;
+  height: 30px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.o_button_pressed {
+  background-color: #f8b200;
+  color: white;
+  font-weight: bold;
+  border: none;
+}

@@ -1,0 +1,17 @@
+.chart {
+    margin: 100px;
+    padding: 100px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .chartTitle {
+    margin-bottom: 20px;
+  }
+
+  .row{
+    padding-left: 0%;
+    padding-top:80px ;
+  }
+
+  

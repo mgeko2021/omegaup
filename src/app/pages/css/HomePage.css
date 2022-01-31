@@ -1,0 +1,184 @@
+/* //////cambios//// */
+
+.pel_container{
+    text-align: left;
+    padding-bottom: 100px;
+    
+}
+
+ @media only screen and (max-width: 600px) {
+    
+.pel_container{
+    text-align: left;
+    padding-bottom: 0px;
+    
+    }
+}
+
+.pel_container h2{
+    font-size: 2.5rem;
+    border-bottom: 0.5rem solid rgb(248, 162, 2);
+
+}
+
+.pel_container p{
+    font-size: 1.5rem;
+}
+.pel_container b{
+    font-size: 1.5rem;
+}
+
+.logos{
+    width: 100px;
+}
+
+
+/* ////// */
+
+
+
+.instalacio_container{
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.instalacio_container h2{
+    font-size: 2rem;
+    border-bottom: 0.5rem solid rgb(248, 162, 2);
+}
+
+.instalacio_container p{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+
+.caracter_container{
+    text-align: left;
+    padding-top: 50px;
+}
+
+.caracter_container h3{
+    text-align: left;
+    font-size: 2rem;
+    
+}
+.linear{
+    width: 30%;
+    border-bottom: 0.5rem solid rgb(248, 162, 2);
+}
+
+.caracter_container p{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+
+
+.benefit_container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem 5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .benefit_container{
+        padding: 0.5rem 0.5rem;
+    }
+    .benefit_container h2{
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .linear{
+        width: 30%;
+        border-bottom: 0.5rem solid rgb(248, 162, 2);
+        margin-left: 1rem;
+
+    }
+    
+    }
+
+.benefit_container h2{
+    text-align: left;
+    font-size: 2rem;
+
+    
+}
+.linear{
+    width: 30%;
+    border-bottom: 0.5rem solid rgb(248, 162, 2);
+}
+
+.benefit_container p{
+    font-size: 1.2rem;
+}
+
+.textend{
+    text-align: center;
+}
+
+.text-white b{
+    border-bottom: 0.5rem solid rgb(248, 162, 2);
+}
+
+.text-white span{
+    color: rgb(255, 0, 0);
+    padding: 0rem 0.5rem;
+    border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.text-white img{
+    margin-top: 2rem;
+}
+
+.textend span{
+    color: rgb(255, 0, 0);
+    padding: 0rem 0.5rem;
+    border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.proteccion{
+    width: 30rem;
+   position: absolute; 
+   left: 0;
+   top:10rem;
+}
+
+.text2{
+    width: 18rem;
+    position: absolute; 
+    left: 0;
+    top:35rem;
+    left: 15rem;
+}
+
+.text-white h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .text-white h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .proteccion{
+        width: 25rem;
+    }
+    .text2{
+        left: 1rem;
+        top: 45rem;
+    }
+    
+}

@@ -1,0 +1,76 @@
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.overlay-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("/media/bg/bg-login-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body-login {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.body-login form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.body-login form input {
+  color: red;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0.6rem 2rem;
+  margin: 0.7rem;
+  border: none;
+  outline: none;
+}
+
+.body-login form button {
+  background-color: #d61216;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.6rem 0;
+  width: 140px;
+  margin: 0 auto;
+  color: aliceblue;
+}
+
+.checkbox-login {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.checkbox-login h6 {
+  margin-top: 08px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 5rem;
+}

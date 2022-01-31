@@ -1,0 +1,256 @@
+
+.o_nav_options {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  a {
+    color: #212121;
+    margin-left: 1rem;
+  }
+}
+
+.o_nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0;
+  background-color: #ffffff;
+  z-index: 1;
+
+  .o_login_btn {
+    background-color: #a30000;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+  }
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -160px;
+  visibility: hidden;
+}
+
+.o_sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.o_header_container {
+  background-image: url("./WEB_02-FONDO-BANNER.jpg");
+  display: flex;
+  justify-content: flex-end;
+}
+
+.o_mask_container {
+  text-align: right;
+  width: 50%;
+}
+
+.o_header_section {
+  width: 100%;
+
+  .o_header_background {
+    width: 100%;
+  }
+
+  .o_header_title {
+    display: flex;
+  }
+}
+
+.o_characteristics_container {
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -2;
+
+  .o_characteristics_left_image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+  }
+
+  .o_characteristics_right_image {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    z-index: -2;
+  }
+
+  // .o_characteristics_steps {
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-wrap: wrap;
+  // }
+}
+
+.o_benefits_container {
+  background-image: url("./WEB_04-FONDO.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.o_benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.o_install_steps {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+.o_top_block {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(251, 32, 28, 1) 0%,
+    rgba(252, 127, 35, 1) 100%
+  );
+
+  h1,
+  h2,
+  h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .o_top_block_download {
+    margin-left: 3rem;
+  }
+}
+
+.o_bottom_block {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+
+  .o_top_block_download {
+    margin-left: 3rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {
+//   .o_characteristics_container {
+//     .o_characteristics_right_image {
+//       display: none;
+//     }
+//     .o_characteristics_left_image {
+//       width: 50%;
+//     }
+//     .o_characteristics_steps {
+//       width: 50%;
+//     }
+//   }
+
+//   .o_benefits {
+//     .o_mobile_image {
+//       width: 50%;
+//     }
+//   }
+
+//   .o_bottom_block {
+//     .o_top_block_download {
+//       margin: 0;
+//     }
+//   }
+
+//   .o_mask_container {
+//     width: 100%;
+//   }
+// }
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {
+//   .o_characteristics_container {
+//     .o_characteristics_left_image {
+//       width: 50%;
+//     }
+//     .o_characteristics_steps {
+//       width: 50%;
+//     }
+//   }
+// }
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//   .o_characteristics_container {
+//     .o_characteristics_left_image {
+//       position: absolute;
+//       top: 0;
+//       height: 100%;
+//       left: 0;
+//     }
+//     .o_characteristics_steps {
+//       width: 50%;
+//     }
+//   }
+// }
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+//   .o_characteristics_container {
+//     .o_characteristics_left_image {
+//       position: absolute;
+//       top: 0;
+//       height: 100%;
+//       left: 0;
+//     }
+//     .o_characteristics_steps {
+//       width: 70%;
+//     }
+//   }
+// }
+
+// @media only screen and (min-width: 1400px) {
+//   .o_characteristics_container {
+//     .o_characteristics_left_image {
+//       position: absolute;
+//       top: 0;
+//       height: 100%;
+//       left: 0;
+//     }
+//     .o_characteristics_steps {
+//       width: 50%;
+//     }
+//   }
+// }

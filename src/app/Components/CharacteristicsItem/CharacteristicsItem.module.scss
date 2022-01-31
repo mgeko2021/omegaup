@@ -1,0 +1,18 @@
+.o_characteristics_card_container {
+  text-align: left;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 900;
+}
+
+.o_benefits {
+  flex-direction: row;
+  align-items: center;
+  p {
+    padding: 0;
+    margin-left: 0.5rem;
+  }
+}

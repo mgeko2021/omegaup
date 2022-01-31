@@ -1,0 +1,15 @@
+.o_characteristics_card_container {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.o_benefits {
+  flex-direction: row;
+  align-items: center;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "guardasfetch": {
+    "Data": "ok",
+    "Guardas": [
+      {
+        "nombres": "D",
+        "apellidos": "MUELAS",
+        "cargo": "Guarda de Seguridad",
+        "foto": "https://omega.proteccionenlinea.co/proteccionenlinea/images/20200806101310_5f2c807600d83.png"
+      },
+      {
+        "nombres": "GUARDA",
+        "apellidos": "PRUEBA",
+        "cargo": "Guarda de Seguridad",
+        "foto": ""
+      }
+    ]
+  },
+  "minuta": [
+    {
+      "fecha_creacion": "2020-08-10 08:18:55",
+      "asunto": "Elementos y Equipos",
+      "descripcion": "A LA HORA EL RADIO NO ESTA FUNCIONANDO",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    },
+    {
+      "fecha_creacion": "2020-08-10 08:16:20",
+      "asunto": "Relevo",
+      "descripcion": "ENTREGO PUESTO A MI COPAÃ‘ERO S/N",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    },
+    {
+      "fecha_creacion": "2020-08-07 19:31:55",
+      "asunto": "Elementos y Equipos",
+      "descripcion": "AL MOMENTO EL RADIO NO ESTA FUNCIONANDO",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    },
+    {
+      "fecha_creacion": "2020-08-07 19:30:56",
+      "asunto": "Relevo",
+      "descripcion": "LE ENTREGO PUESTO A MI COMPAÃ‘ERO 0 SIN NOVEDAD",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    },
+    {
+      "fecha_creacion": "2020-08-07 19:30:56",
+      "asunto": "Relevo",
+      "descripcion": "LE ENTREGO PUESTO A MI COMPAÃ‘ERO 0 SIN NOVEDAD",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    },
+    {
+      "fecha_creacion": "2020-08-07 19:30:56",
+      "asunto": "Relevo",
+      "descripcion": "LE ENTREGO PUESTO A MI COMPAÃ‘ERO 0 SIN NOVEDAD",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    }
+  ],
+  "bitacora": [
+    {
+      "fecha_creacion": "2020-08-10 08:17:52",
+      "asunto": "Convivencia",
+      "descripcion": "LOS RESIDENTES ESTAN ESCUCHANDO MUSICA MUY FUERTE",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    },
+    {
+      "fecha_creacion": "2020-08-07 20:26:58",
+      "asunto": "Convivencia",
+      "descripcion": "LOS RESIDENTES DE LA CASA 1 ESTAN ESCUCHANDO MÃšSICA MUY FUERTE",
+      "nombreCreador": "D",
+      "apellidoCreador": "MUELAS",
+      "cargoCreador": "Guarda de Seguridad"
+    }
+  ],
+  "visitantes": [
+    {
+      "nombre": "Prueba",
+      "apellido": "Visitante2",
+      "foto": "images/upload/registrovisitante.png",
+      "fecha_ingreso": "2021-04-15 09:57:42",
+      "fecha_salida": "2021-04-15 10:46:20",
+      "nombreContacto": "Luis Geko",
+      "apellidoContacto": "Usuario Prueba"
+    },
+    {
+      "nombre": "Visitante1",
+      "apellido": "Prueba",
+      "foto": "images/upload/registrovisitante.png",
+      "fecha_ingreso": "2021-04-15 09:56:58",
+      "fecha_salida": "2021-04-15 10:46:21",
+      "nombreContacto": "Luis Geko",
+      "apellidoContacto": "Usuario Prueba"
+    }
+  ],
+  "correspondencias": [
+    {
+      "fecha_recibido": "2021-04-15 10:48:36",
+      "fecha_entrega": "No se ha entregado",
+      "transportador": "PRUEBA 2",
+      "numero_guia": "PRUEBA 2",
+      "nombre": "Luis Geko",
+      "apellido": "Usuario Prueba",
+      "foto": "images/upload/registrovisitante.png"
+    },
+    {
+      "fecha_recibido": "2021-04-15 10:48:05",
+      "fecha_entrega": "No se ha entregado",
+      "transportador": "OMEGA",
+      "numero_guia": "FKNFSKDSLAA",
+      "nombre": "Luis Geko",
+      "apellido": "Usuario Prueba",
+      "foto": "images/upload/registrovisitante.png"
+    }
+  ],
+  "contacto-fetch": {
+    "Data": "ok",
+    "Administrador": [
+      {
+        "nombreContacto": "DANIEL ALEXANDER MUELAS",
+        "apellidoContacto": "MUELAS RIVERA",
+        "cargoContacto": "",
+        "fotoContacto": "https://omega.proteccionenlinea.co/controldevisitantes/images/upload/registrovisitante.png",
+        "emailContacto": "danielmuelasrivera483@gmail.com",
+        "celularContacto": "31089562"
+      },
+      {
+        "nombreContacto": "MAURICIO",
+        "apellidoContacto": "MENDEZ",
+        "cargoContacto": "",
+        "fotoContacto": "https://omega.proteccionenlinea.co/controldevisitantes/images/upload/registrovisitante.png",
+        "emailContacto": "mmendez@hotmail.com",
+        "celularContacto": "31520"
+      }
+    ]
+  },
+  "login-fetch": [
+    {
+      "Data": "ok",
+      "NameInstance": "proteccion_db_crsegomega"
+    },
+    {
+      "numeroInstancia": "1994215082",
+      "idSector": "2452",
+      "nombreSector": "TORRE 2",
+      "idUnidadPrivada": "29707",
+      "nombreUnidadPrivada": "101",
+      "idUsuario": "1836",
+      "idContacto": "84816",
+      "tipoUsuario": "Usuario",
+      "token": "",
+      "cedulaUsuario": "11444",
+      "correoUsuario": "luis@geko.com.co",
+      "instanciaName": "CONJUNTO RESIDENCIAL OMEGA"
+    }
+  ]
+}
